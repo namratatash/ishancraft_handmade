@@ -1,0 +1,8 @@
+/* css for home page */
+div.header-panel {
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+}
