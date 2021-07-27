@@ -17,7 +17,7 @@ table.rakhis {
   }
 
   table.rakhis thead {
-      background-color: #dddddd;
+      background-color:aquamarine;
       border-radius: 25px 0 0 0;
       padding: 5px;
       margin: 5px;
@@ -38,3 +38,8 @@ table.rakhis {
     border-radius:0 10px 10px 0;
   }
   
+
+  img.rakhi_pic {
+      width: 150px;
+      height: 80px;
+  }
