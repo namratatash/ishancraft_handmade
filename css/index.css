@@ -8,6 +8,7 @@ div.header-panel {
 }
 
 table.rakhis {
+    display: none;
     table-layout: fixed;
     width: 100%;
     border-collapse: separate;
@@ -40,6 +41,33 @@ table.rakhis {
   
 
   img.rakhi_pic {
-      width: 150px;
-      height: 80px;
+      width: 100%;
+      height: 100%;
+  }
+
+  /* styles for cards */
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    /* flex-wrap: wrap; */
+    text-align: center;
+  }
+
+  .card {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    width: 40%;
+    /* margin-bottom: 10px;
+    margin-right: 10px; */
+    border-width: 20px;
+    border-color: burlywood;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
   }
