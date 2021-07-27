@@ -6,3 +6,35 @@ div.header-panel {
     font-family: Arial, Helvetica, sans-serif;
     color:brown;
 }
+
+table.rakhis {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border: 3px solid #dddddd;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  table.rakhis thead {
+      background-color: #dddddd;
+      border-radius: 25px 0 0 0;
+      padding: 5px;
+      margin: 5px;
+  }
+
+  table.rakhis td {
+      text-align: center;
+  }
+  table.rakhis tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  table.rakhis th:first-child{
+    border-radius:10px 0 0 10px;
+  }
+  
+  table.rakhis th:last-child{
+    border-radius:0 10px 10px 0;
+  }
+  
