@@ -46,9 +46,14 @@ table.rakhis {
       /* opacity: 10%; */
       display: block;
       margin: auto;
-  }
+    }
 
-  /* styles for cards */
+    .image-div {
+      /* outline: 1px solid #f00 !important; */
+    }
+
+    /* styles for cards */
+    
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -56,6 +61,7 @@ table.rakhis {
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
+    /* outline: 1px solid #f00 !important; */
   }
 
   .card {
@@ -63,10 +69,20 @@ table.rakhis {
     transition: 0.3s;
     width: 90%;
     height: 90%;
+    background-color: white;
     margin-bottom: 20px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     /* border-width: 20px; */
     /* border-color: burlywood; */
+    border-radius: .5rem;
+    overflow: hidden;
+    /* outline: 1px solid #f00 !important; */
+  }
+
+  .round-div{
+    border-radius: .5rem;
+    padding: 0px;
+    margin: 0px;
   }
   
   .card:hover {
@@ -77,6 +93,11 @@ table.rakhis {
     padding: 2px 16px;
   }
 
+  body {
+    background-color: ivory;
+  }
+
+  /* use below setting to check if any element is overflowing boundary. */
   /* * {
     outline: 1px solid #f00 !important;
   } */
