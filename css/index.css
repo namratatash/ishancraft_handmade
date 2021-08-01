@@ -97,6 +97,34 @@ table.rakhis {
     background-color: ivory;
   }
 
+  div.fb-page {
+    margin-bottom: 20px;
+  }
+  
+  div.follow-us-blk {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    border-bottom-color: dimgrey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
+  a.follow-icons {
+    margin-right: 20px;
+  }
+
+  p.follow-us {
+    font-family: monospace;
+    font-size: 15px;
+  }
+
+  div.social-media-content {
+    border-top: 1px solid dimgrey;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
   /* use below setting to check if any element is overflowing boundary. */
   /* * {
     outline: 1px solid #f00 !important;
