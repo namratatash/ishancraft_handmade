@@ -48,9 +48,9 @@ table.rakhis {
       margin: auto;
     }
 
-    .image-div {
-      /* outline: 1px solid #f00 !important; */
-    }
+    /* .image-div {
+      outline: 1px solid #f00 !important;
+    } */
 
     /* styles for cards */
     
@@ -112,11 +112,19 @@ table.rakhis {
 
   a.follow-icons {
     margin-right: 20px;
+    display: block;
+  }
+
+  a.follow-icons img {
+    width: 30px;
+    height: 30px;
+    /* margin-right: 10px; */
+    background-color: ivory;
   }
 
   p.follow-us {
     font-family: monospace;
-    font-size: 15px;
+    font-size: 25px;
   }
 
   div.social-media-content {
