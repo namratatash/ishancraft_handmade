@@ -137,3 +137,34 @@ table.rakhis {
   /* * {
     outline: 1px solid #f00 !important;
   } */
+
+  /* navigation menus */
+  div.nav-menu-blk {
+    display: grid;
+    margin-bottom: 10px;
+    border-bottom-color: dimgrey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
+  ul.nav-menu {
+      background-color: #333;
+      list-style-type: none;
+  }
+
+  ul.nav-menu li {
+    float: left;
+  }
+
+  ul.nav-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+
+  ul.nav-menu li a.active {
+    background-color: #04AA6D;
+  }
