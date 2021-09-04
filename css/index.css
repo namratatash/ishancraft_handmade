@@ -1,10 +1,23 @@
 /* css for home page */
 div.header-panel {
-    text-align: center;
-    font-size: 50px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    color:brown;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color:brown;
+}
+
+div.sub-heading-panel {
+  margin: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-family:'Courier New', Courier, monospace;
+  color:brown;
+}
+
+div.sub-heading-panel h2 {
+  margin: 0;
 }
 
 table.rakhis {
@@ -40,7 +53,7 @@ table.rakhis {
   }
   
 
-  img.rakhi_pic {
+  img.item_pic {
       width: 100%;
       height: 100%;
       /* opacity: 10%; */
@@ -142,9 +155,11 @@ table.rakhis {
   div.nav-menu-blk {
     display: grid;
     margin-bottom: 10px;
-    border-bottom-color: dimgrey;
+    /* border-bottom-color: dimgrey;
     border-bottom-width: 1px;
-    border-bottom-style: solid;
+    border-bottom-style: solid; */
+    font-style: normal;
+    font-family:'Courier New', Courier, monospace;
   }
 
   ul.nav-menu {
@@ -164,7 +179,11 @@ table.rakhis {
     text-decoration: none;
   }
 
-
   ul.nav-menu li a.active {
     background-color: #04AA6D;
   }
+
+  ul.nav-menu li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
