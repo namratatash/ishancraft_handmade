@@ -11,7 +11,18 @@
 
     <script>
         $(function () {
-            $("#header").load("header.html");
+            $("#header").load("header.html", function () {
+
+                // mark the selected menu.
+                console.log("header was loaded");
+                $(".nav-menu").children("li").each(function () {
+                    $(this).children("a").each(function () {
+                        $(this).attr("class", "");
+                    })
+                })
+
+                $(".nav-menu #rakhis").attr("class", "active");
+            });
         })
     </script>
 </head>
