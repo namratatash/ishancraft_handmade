@@ -4,8 +4,10 @@ page for Ishancraft Handmade Creation. - https://namratatash.github.io/ishancraf
 
 
 ### running in local
+```
 $ npm install http-server -g
 $ cd ishancraft_handmade
 $ http-server
+```
   
 open http://localhost:8080 in chrome/firefox.  
