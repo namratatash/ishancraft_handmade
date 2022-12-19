@@ -34,7 +34,9 @@ ul.nav-menu {
 
 ul.nav-menu li {
   float: left;
-}
+  border-width: 1px;
+  border-color: white;
+ }
 
 ul.nav-menu li a {
   display: block;
@@ -123,7 +125,7 @@ table.rakhis {
     /* border-width: 20px; */
     /* border-color: burlywood; */
     border-radius: 1rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* outline: 1px solid #f00 !important; */
   }
 
@@ -188,8 +190,6 @@ table.rakhis {
   }
 
   /* use below setting to check if any element is overflowing boundary. */
-  /* * {
+ * {
     outline: 1px solid #f00 !important;
-  } */
-
-  
+  }
